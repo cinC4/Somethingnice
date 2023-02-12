@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(215, 61%, 90%);
+    margin: 0%;
+    transition: 1s ease-in-out;
+}
+
+#t1 {
+    font-family: Outfit;font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom: -320px;
+    font-size: 15px;
+    animation-name: pop;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+}
+
+#t2 {
+    font-family: Outfit;font-weight: 400;font-size: 10px;
+    color: hsla(0, 0%, 0%, 0.527);
+    position: relative;
+    bottom: -320px;
+    text-align: center;
+    animation-name: pop;
+    animation-iteration-count: 1;
+    animation-duration: 1s;    
+}
+
+#qco {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0 0 0 15px white;
+    padding-bottom: 120px;
+}
+
+.attribution {
+    text-align: center;
+    position: relative;
+    bottom: -160px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes pop {
+    0% {font-size: 0px;}
+}
